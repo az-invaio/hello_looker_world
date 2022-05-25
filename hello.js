@@ -64,7 +64,7 @@ looker.plugins.visualizations.add({
         var firstCell = firstRow[queryResponse.fields.dimensions[0].name];
 
         // Insert the data into the page
-        this._textElement.innerHTML = LookerCharts.Utils.htmlForCell(firstCell);
+        this._textElement.innerHTML = LookerCharts.Utils.htmlForCell("Hello World");
 
         // Set the size to the user-selected size
         if (config.font_size == "small") {
